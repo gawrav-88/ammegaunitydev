@@ -1,0 +1,7 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		This component redirects the user to the newly created record from a flow. 
+        The setup is generic and can be re-used for any object.
+	</aura:example>
+</aura:documentation>

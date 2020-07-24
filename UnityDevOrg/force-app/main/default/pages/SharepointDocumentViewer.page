@@ -1,0 +1,8 @@
+<apex:page showHeader="false" standardController="Account">
+<apex:form >
+  <apex:commandButton value="Upload Document"
+  action="http{!account.TF_DocumentUploadURL__c}" />
+      <apex:inputHidden value="{!account.TF_DocumentUploadURL__c}"/>
+  </apex:form>
+<apex:iframe src="{!account.TF_DocumentViewerURL__c}" scrolling="true" id="SharepointDocViewer"/>
+</apex:page>

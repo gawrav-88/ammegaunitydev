@@ -1,0 +1,6 @@
+<aura:component controller="FireAccountEventClass" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    <div>
+        <input type="file" class="file" aura:id="file" />
+        <ui:button label="Fire Event" press="{!c.CreateRecord}"/>
+    </div>
+</aura:component>

@@ -1,0 +1,3 @@
+<apex:page controller="testvikePDF">
+    <script>sforce.one.navigateToSObject('0693N000000Ye0iQAC');</script>
+</apex:page>

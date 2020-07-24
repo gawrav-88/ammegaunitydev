@@ -1,0 +1,3 @@
+<apex:page showHeader="false" standardController="Account">
+<apex:iframe src="https://sharepointacc.ammeraalbeltech.com/sites/dms/_layouts/Upload.aspx?List={52a4c06c-0b96-4fdf-8862-7bf97d85012d}&AccountGuid={!account.Guid__c}" scrolling="true" id="SharepointDocViewer"/>
+</apex:page>

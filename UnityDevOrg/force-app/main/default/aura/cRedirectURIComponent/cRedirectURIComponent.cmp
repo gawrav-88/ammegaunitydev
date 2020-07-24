@@ -1,0 +1,7 @@
+<aura:component implements="lightning:isUrlAddressable,lightning:hasPageReference" controller="cGoogleAppAuthenticationWithSalesforce">
+    <aura:attribute name="codeReceived" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" description="Handler for valueInit event fired when the component has been initialised"/>
+    <aura:attribute name="base64EncodedString" type="String"/>
+    <aura:attribute name="pdfContainer" type="Aura.Component[]"/>
+	{!v.pdfContainer}
+</aura:component>
